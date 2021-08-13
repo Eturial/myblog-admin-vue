@@ -6,10 +6,13 @@
 
 <script>
 export default { 
-  name: 'Articaladd', 
+  name: 'articaladd',
   data() { 
     return {}
   },
+    mounted() {
+      console.log(111);
+    },
   components: {},
   methods: {},
   created () {}
